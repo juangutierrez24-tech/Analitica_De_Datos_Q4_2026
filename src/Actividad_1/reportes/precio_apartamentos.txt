@@ -1,0 +1,30 @@
+REPORTE DEL DATAFRAME
+============================================================
+Filas: 68
+Columnas: 5
+Duplicados: 0
+
+Columnas y tipos:
+- pais: str
+- country: str
+- city: str
+- avisos_con_area: int64
+- usd_m2_mediana: float64
+
+Valores nulos por columna:
+- pais: 0
+- country: 0
+- city: 0
+- avisos_con_area: 0
+- usd_m2_mediana: 0
+
+Estadísticas numéricas:
+       avisos_con_area  usd_m2_mediana
+count           68.000          68.000
+mean          2724.279        2047.832
+std           4870.800        1228.456
+min             33.000         757.775
+25%            282.000        1329.123
+50%            717.500        1753.254
+75%           3212.000        2384.466
+max          31265.000        8382.937
