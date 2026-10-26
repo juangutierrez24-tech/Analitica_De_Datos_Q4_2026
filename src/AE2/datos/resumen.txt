@@ -1,0 +1,50 @@
+RESUMEN DE LA ACTIVIDAD AE2
+Manejo de archivos CSV, JSON y TXT
+===================================
+
+1. FUENTES DE DATOS
+
+URL del CSV:
+https://huggingface.co/datasets/aptologia/mejores-barrios-precio-calidad-bogota-2026
+
+URL del JSON:
+https://huggingface.co/datasets/diabolic6045/Adult-Income-Json
+
+2. ARCHIVOS PROCESADOS
+
+CSV original: /workspaces/Analitica_De_Datos_Q4_2026/src/AE2/datos/mejores_barrios_precio_calidad_bogota_datos.csv
+CSV modificado: /workspaces/Analitica_De_Datos_Q4_2026/src/AE2/datos/barrios_modificado.csv
+Registros CSV procesados: 80
+
+JSON original: /workspaces/Analitica_De_Datos_Q4_2026/src/AE2/datos/Adult_income.json
+JSON modificado: /workspaces/Analitica_De_Datos_Q4_2026/src/AE2/datos/adult_income_modificado.json
+Registros JSON procesados: 45222
+
+3. MODIFICACIONES REALIZADAS
+
+CSV:
+Se agregó la columna procesado_ae2 con el valor Sí a cada registro.
+
+JSON:
+Se agregó el campo procesado_ae2 con valor true a todos los registros.
+
+4. CLASES Y MÉTODOS UTILIZADOS
+
+Clase ManejadorCSV:
+- importar()
+- modificar()
+- guardar()
+
+Clase ManejadorJSON:
+- importar()
+- modificar()
+- guardar()
+
+Clase GeneradorResumenTXT:
+- generar()
+- guardar()
+
+5. RESULTADO
+
+El resumen se generó mediante código a partir de los resultados
+de la ejecución de las clases.
